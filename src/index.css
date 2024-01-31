@@ -12,6 +12,7 @@ body {
   min-height: 100%;
   line-height: 1.2;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 98);
 }
 
 h1, h2, h3, h4, h5, h6, a {
@@ -81,6 +82,11 @@ li,
 a {
   font-size: 22px;
   text-decoration: none;
+  list-style-type: none;
+}
+
+#resume h3 {
+  margin-top: 2%;
 }
 
 /* -------------- Header -------------- */
@@ -129,7 +135,7 @@ main {
   margin: var(--second-margin);
   /* background-color: var(--fourth-color); */
   height: 100%;
-  min-height: 75vh;
+  min-height: 70vh;
 }
 
 section {
@@ -264,6 +270,24 @@ footer {
   color: var(--primary-color);
 }
 
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-apps {
+  height: 45px;
+  width: auto;
+  margin: auto 10px;
+}
+
+.footer-apps:hover {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+
 /* ---------- Breakpoints Tablet---------- */
 
 @media screen and (max-width: 1030px) {
@@ -338,13 +362,4 @@ footer {
     width: 100%;
   }
 
-  /* --- WORK SECTION --- */
-  /* #contact ul {
-    display: block;
-    text-align: center;
-  }
-
-  #contact li {
-    margin: 4% var(--primary-margin);
-  } */
 }
