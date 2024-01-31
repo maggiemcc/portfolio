@@ -8,7 +8,7 @@ function Contact() {
 
     const validateEmail = (email) => {
         return String(email).toLowerCase().match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
-      };
+    };
 
     const handleInput = (event) => {
         const { target } = event;
@@ -24,15 +24,48 @@ function Contact() {
         }
     };
 
+    const handleBlur = (event) => {
+        const { target } = event;
+        const formInput = target.name;
+        const inputValue = target.value;
+        if (formInput === 'name') {
+            if (!inputValue) {
+                setErrorMessage("Please enter a valid name");
+                return;
+            } else {
+                setErrorMessage("");
+                return;
+            }
+        } else if (formInput === 'email') {
+            if (!validateEmail(email)) {
+                setErrorMessage("Please enter a valid email");
+                return;
+            }
+            else {
+                setErrorMessage("");
+                return;
+            }
+        } else if (formInput === 'message') {
+            if (!message) {
+                setErrorMessage("Please enter a message");
+
+                return;
+            } else {
+                setErrorMessage("");
+                return;
+            }
+        }
+    }
+
     const handleFormSubmit = (event) => {
         event.preventDefault();
         if (!name) {
-            setErrorMessage("Please enter a name");
+            setErrorMessage("Please enter a valid name");
             return;
         }
         if (!validateEmail(email)) {
-            setErrorMessage("Email is invalid");
-            return
+            setErrorMessage("Please enter a valid email");
+            return;
         }
         if (!message) {
             setErrorMessage("Please enter a message");
@@ -54,6 +87,7 @@ function Contact() {
                         value={name}
                         name="name"
                         onChange={handleInput}
+                        onBlur={handleBlur}
                         type="text"
                         id="contact-name"
                         placeholder="John Doe"
@@ -63,6 +97,7 @@ function Contact() {
                         value={email}
                         name="email"
                         onChange={handleInput}
+                        onBlur={handleBlur}
                         type="text"
                         id="contact-email"
                         placeholder="johndoe@email.com"
@@ -72,6 +107,7 @@ function Contact() {
                         value={message}
                         name="message"
                         onChange={handleInput}
+                        onBlur={handleBlur}
                         type="message"
                         id="contact-message"
                         placeholder="Your Message"
