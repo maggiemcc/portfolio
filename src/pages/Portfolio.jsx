@@ -1,12 +1,16 @@
+import gitHubCat from '../assets/github-mark.png';
+import heroku from '../assets/heroku.svg';
+import netlify from '../assets/netlify-logo.png';
+import render from '../assets/render.png';
+
 import gyltImage from '../assets/projectTwo.png';
 import healthyPanda from '../assets/healthyPanda.png';
 import jayBoyce from '../assets/boyce.png';
 import weatherApp from '../assets/weatherApp.png';
 import horiseon from '../assets/horiseon.png';
 import nationalPark from '../assets/nationalPark.png';
-import gitHubCat from '../assets/github-mark.png';
-import heroku from '../assets/heroku.svg';
-import netlify from '../assets/netlify-logo.png';
+import textEditor from '../assets/pwa.png'
+
 
 function Portfolio() {
     return (
@@ -14,6 +18,17 @@ function Portfolio() {
             <section id="work">
                 <h2>My Work</h2>
                 <div className="projects">
+                    <div className="project">
+                        <div className="project-title">
+                            <h3>Text Editor</h3>
+                            <div className='apps'>
+                                <li><a href="https://github.com/maggiemcc/text-editor?tab=readme-ov-file" target="_blank" rel="noreferrer"><img className="project-apps" src={gitHubCat} alt="github logo" /></a></li>
+                                <li><a href="https://pwa-text-editor-roys.onrender.com/" target="_blank" rel="noreferrer"><img className="project-apps" src={render} alt="render logo" /></a></li>
+                            </div>
+                        </div>
+                        <img src={textEditor} alt="Text Editor Image" />
+                    </div>
+
                     <div className="project">
                         <div className="project-title">
                             <h3>Get Your List Together</h3>
