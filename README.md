@@ -2,12 +2,17 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Screenshot and Portfolio](#screenshot-and-portfolio)
 - [Contributors](#contributors)
 - [License](#license)
 - [Questions](#questions)
 
 ## Description
 As a web developer I want a React portfolio that contains my work samples, a resume, and contact information for potential empoyers to access and review.
+
+## Screenshot and Portfolio
+  [Click to view deployed App on Netlify](https://maggie-mccausland-portfolio.netlify.app/) 
+  ![](screenshot.png)
 
 ## Contributors
 Show your appreciation to those who have contributed to the project. Also state if you are open to contributions and what your requirements are for accepting them. For people who want to make changes to your project, it's helpful to have some documentation on how to get started.
