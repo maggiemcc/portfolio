@@ -9,7 +9,8 @@ import jayBoyce from '../assets/boyce.png';
 import weatherApp from '../assets/weatherApp.png';
 import horiseon from '../assets/horiseon.png';
 import nationalPark from '../assets/nationalPark.png';
-import textEditor from '../assets/pwa.png'
+import textEditor from '../assets/pwa.png';
+import tahanan from '../assets/tahanan.png';
 
 
 function Portfolio() {
@@ -18,6 +19,18 @@ function Portfolio() {
             <section id="work">
                 <h2>My Work</h2>
                 <div className="projects">
+
+                <div className="project">
+                        <div className="project-title">
+                            <h3>Tahanan Candle Co.</h3>
+                            <div className='apps'>
+                                <li><a href="https://github.com/mjthurber/Tahanan_Candle?tab=readme-ov-file" target="_blank" rel="noreferrer"><img className="project-apps" src={gitHubCat} alt="github logo" /></a></li>
+                                <li><a href="https://tahanancandleco.onrender.com/" target="_blank" rel="noreferrer"><img className="project-apps" src={render} alt="render logo" /></a></li>
+                            </div>
+                        </div>
+                        <img src={tahanan} alt="Tahanan Image" />
+                    </div>
+
                     <div className="project">
                         <div className="project-title">
                             <h3>Text Editor</h3>
