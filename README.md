@@ -11,7 +11,7 @@
 As a web developer I want a React portfolio that contains my work samples, a resume, and contact information for potential empoyers to access and review.
 
 ## Screenshot and Portfolio
-  [Click to view deployed App on Netlify](https://maggie-mccausland-portfolio.netlify.app/) 
+  [Click to view deployed App on Netlify](https://mccausland-portfolio.netlify.app/) 
   ![](screenshot.png)
 
 ## Contributors
