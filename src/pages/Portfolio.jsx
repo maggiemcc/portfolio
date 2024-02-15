@@ -1,4 +1,4 @@
-import gitHubCat from '../assets/github-mark.png';
+import gitHubCat from '../assets/github.png';
 import heroku from '../assets/heroku.svg';
 import netlify from '../assets/netlify-logo.png';
 import render from '../assets/render.png';

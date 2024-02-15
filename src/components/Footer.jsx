@@ -1,4 +1,4 @@
-import gitHubCat from '../assets/github-mark.png';
+import gitHubCat from '../assets/github.png';
 import linkedIn from '../assets/linkedIn.png';
 
 function Footer() {
