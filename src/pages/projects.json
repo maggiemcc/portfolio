@@ -6,7 +6,6 @@
         "image": "../public/images/tahanan.png",
         "repoLogo": "../public/images/github.png",
         "deployLogo": "../public/images/render.png"
-        
     },
     {
         "name": "Text Editor",
@@ -15,5 +14,45 @@
         "image": "../public/images/pwa.png",
         "repoLogo": "../public/images/github.png",
         "deployLogo": "../public/images/render.png"
+    },
+    {
+        "name": "Get Your List Together",
+        "github": "https://github.com/britt-young/get_your_list_together",
+        "deploy": "https://get-your-list-together-c8df3b5b0755.herokuapp.com",
+        "image": "../public/images/projectTwo.png",
+        "repoLogo": "../public/images/github.png",
+        "deployLogo": "../public/images/heroku.svg"
+    },
+    {
+        "name": "Healthy Panda",
+        "github": "https://github.com/JJTheDev/Fitness-App",
+        "deploy": "https://jjthedev.github.io/Fitness-App",
+        "image": "../public/images/healthyPanda.png",
+        "repoLogo": "../public/images/github.png",
+        "deployLogo": "../public/images/github.png"
+    },
+    {
+        "name": "Jay Boyce",
+        "github": "https://github.com/maggiemcc/JBoyce",
+        "deploy": "https://jboyce.netlify.app/",
+        "image": "../public/images/boyce.png",
+        "repoLogo": "../public/images/github.png",
+        "deployLogo": "../public/images/netlify.png"
+    },
+    {
+        "name": "Weather App",
+        "github": "https://github.com/maggiemcc/weather-dashboard",
+        "deploy": "https://maggiemcc.github.io/weather-dashboard/",
+        "image": "../public/images/weatherApp.png",
+        "repoLogo": "../public/images/github.png",
+        "deployLogo": "../public/images/github.png"
+    },
+    {
+        "name": "National Park",
+        "github": "https://github.com/maggiemcc/uvu-projects",
+        "deploy": "https://maggie-uvu-projects.netlify.app/national_park/",
+        "image": "../public/images/nationalpark.png",
+        "repoLogo": "../public/images/github.png",
+        "deployLogo": "../public/images/netlify.png"
     }
 ]

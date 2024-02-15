@@ -6,7 +6,8 @@ function Nav() {
     return (
         <>
             <header>
-                <h1>Maggie McCausland</h1>
+            <h1><Link to="/" className={currentPage === '/' ? 'nav-link-active' : 'nav-link'}>Maggie McCausland</Link></h1>
+                {/* <h1>Maggie McCausland</h1> */}
                 <nav>
                     <ul>
                         <li><Link to="/" className={currentPage === '/' ? 'nav-link-active' : 'nav-link'}>About Me</Link></li>

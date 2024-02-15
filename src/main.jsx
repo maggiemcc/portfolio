@@ -4,7 +4,6 @@ import App from './App.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
-import PortfolioJSON from './pages/PortfolioJSON.jsx';
 import Resume from './pages/Resume.jsx';
 import './index.css'
 
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
       {
         path: 'portfolio',
         element: <Portfolio />
-      },
-      {
-        path: 'portfolioJSON',
-        element: <PortfolioJSON />
       },
       {
         path: 'resume',
