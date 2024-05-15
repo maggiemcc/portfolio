@@ -5,7 +5,7 @@ import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
-import './index.css'
+import './index.css';
 
 const router = createBrowserRouter([
   {
@@ -32,4 +32,4 @@ const router = createBrowserRouter([
   }
 
 ]);
-ReactDOM.createRoot(document.getElementById('root')).render(<RouterProvider router={router} />)
+ReactDOM.createRoot(document.getElementById('root')).render(<RouterProvider router={router} basename="/maggie-mccausland-portfolio"/>)
